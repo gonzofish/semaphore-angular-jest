@@ -19,4 +19,9 @@ describe('NameService', () => {
     test('should have a name getter', () => {
         expect(service.name).toBe('Matt');
     });
+
+    test('#setName should set the private name', () => {
+        service.setName('Goku');
+        expect(service.name).toBe('Goku');
+    });
 });
