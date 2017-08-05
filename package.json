@@ -31,5 +31,10 @@
     "jest": "^20.0.4",
     "jest-preset-angular": "^2.0.5",
     "typescript": "^2.4.2"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "roots": [ "<rootDir>/src/" ],
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setup-jest.ts"
   }
 }
